@@ -1,0 +1,60 @@
+@charset "EUC-KR";
+body{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+.btn{
+	font-size:30px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+	color:white;
+	font-weight: bold;
+	width:60px;
+	text-align: center;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+.result{
+	font-size:35px;
+	border-radius:10px;
+	background-color: dodgerblue;
+	color:white;
+	font-weight: bolder;
+	width:95%;
+	height:40px;
+	text-align:right;
+}
+.cal{
+	margin:10px;
+	padding-top: 15px;
+}
+
+.cal_box{
+	background-color:aquamarine;
+	border-radius: 10px;
+	height: 300px;
+	width: 270px;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: default;
+    color:white;
+    /* 기타 필요한 스타일을 여기에 추가 */
+}
+
+button:hover{
+	color:black;
+}
